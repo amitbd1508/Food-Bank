@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "196521568412",
+    "firebase_url": "https://project-6269756337801590112.firebaseio.com",
+    "project_id": "project-6269756337801590112",
+    "storage_bucket": "project-6269756337801590112.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:196521568412:android:faa61ae983da124e",
+        "android_client_info": {
+          "package_name": "com.blackflag.foodbank"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "196521568412-37jardrdb7s968gicm9kr3ejafsdsa23.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBky3gV9CUHryd_KfjkyzfzVrkFr7OfFw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

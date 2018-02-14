@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_review"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.blackflag.foodbank.ui.NewReviewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/food_image"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:scaleType="center"
+                android:src="@drawable/choser" />
+
+            <TextView
+                android:id="@+id/food_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:padding="5dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="#000000"
+                android:textSize="25sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:text="Post Time"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <TextView
+                    android:id="@+id/time"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:text="Place"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <TextView
+                    android:id="@+id/place"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:text="Price"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <TextView
+                    android:id="@+id/price"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:text="Offer"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+
+                <TextView
+                    android:id="@+id/offer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="2"
+                    android:padding="5dp"
+                    android:text="Posted By : "
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <TextView
+                    android:id="@+id/authorname"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:padding="5dp"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Test    "
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <RatingBar
+                    android:id="@+id/testRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:isIndicator="true"
+                    android:layout_weight="1"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:stepSize="1.0"
+                    android:transformPivotX="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:layout_weight="2"
+                    android:text="Service  "
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+
+                <RatingBar
+                    android:id="@+id/serviceRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:layout_weight="1"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:stepSize="1.0"
+                    android:transformPivotX="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Place   "
+                    android:layout_weight="2"
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <RatingBar
+                    android:id="@+id/placeRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:isIndicator="true"
+                    android:numStars="5"
+                    android:layout_weight="1"
+                    android:rating="0"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:stepSize="1.0"
+                    android:transformPivotX="0dp" />
+            </LinearLayout>
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:padding="5dp"
+                android:text="Commemt :"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+
+            <TextView
+                android:id="@+id/cooment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Comment (if any)"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_new_review"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="8dp"
+    tools:context="com.blackflag.foodbank.ui.NewReviewActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="center"
+                android:layout_margin="6dp"
+                android:padding="6dp"
+                android:src="@drawable/choser"
+                android:id="@+id/food_image"/>
+            <EditText
+                android:id="@+id/place"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Place/Resturent name"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+
+            <EditText
+                android:id="@+id/food_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Food name"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Price"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Offer (if any)"
+                android:padding="5dp"
+                android:id="@+id/offer"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Test    "
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <RatingBar
+                    android:id="@+id/testRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:stepSize="1.0"
+                    android:transformPivotX="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Service  "
+                    android:textColor="#000000"
+                    android:textSize="17dp" />
+
+                <RatingBar
+                    android:id="@+id/serviceRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:stepSize="1.0"
+                    android:transformPivotX="0dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:padding="5dp"
+                    android:text="Place   "
+                    android:textColor="#000000"
+                    android:textSize="@dimen/text_size_new_review" />
+
+                <RatingBar
+                    android:id="@+id/placeRating"
+                    android:layout_width="wrap_content"
+                    android:layout_height="39dp"
+                    android:numStars="5"
+                    android:rating="0"
+                    android:scaleX="0.75"
+                    android:scaleY="0.75"
+                    android:stepSize="1.0"
+                    android:transformPivotX="0dp" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/cooment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:hint="Comment (if any)"
+                android:padding="5dp"
+                android:textColor="#000000"
+                android:textSize="@dimen/text_size_new_review" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post"
+                android:id="@+id/post"
+                android:padding="6dp"
+                android:layout_margin="6dp"
+                android:background="#304ffe"
+                android:textSize="20sp"
+                android:textColor="#ffffff"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
